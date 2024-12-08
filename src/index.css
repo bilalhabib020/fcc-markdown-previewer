@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#app-heading {
+  font-family: "Protest Guerrilla", sans-serif;
+  margin: 5px 0;
+  text-decoration: underline;
+}
+
+pre {
+  background-color: var(--bs-success);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+blockquote {
+  border-left: 4px solid var(--bs-dark);
+  padding-left: 10px;
+  margin-left: 40px;
+}
+
+img {
+  max-width: 50%;
+  max-height: 300px;
+  margin-top: 5px;
+}
+
+textarea {
+  width: 50%;
+  height: 100%;
+  
+}
+
+.editor-div {
+  margin-bottom: 40px;
+  
+
+}
+
+#editor {
+  border-top: 1px solid var(--bs-dark);
+  border-bottom:  5px solid var(--bs-dark);
+  border-left:  5px solid var(--bs-dark);
+  border-right:  5px solid var(--bs-dark);
+  box-shadow: 0 0 30px rgb(0, 0, 0) !important;
+ 
+}
+
+#previewer {
+  margin-bottom: 20px;
+  
+}
+
+#preview {
+  height: 100%;
+  padding: 10px;
+  border-top: 1px solid var(--bs-dark);
+  border-bottom:  5px solid var(--bs-dark);
+  border-left:  5px solid var(--bs-dark);
+  border-right:  5px solid var(--bs-dark);
+  box-shadow: 0 0 30px rgb(0, 0, 0) !important;
+
+}
+
+#editor-heading, #previewer-heading {
+  font-family: "Handjet", sans-serif;
+  padding: 5px 10px;
+  margin-bottom: 0;
+}
+
+#editor-btn, #preview-btn {
+  margin-right: 2px;
+}
+
+.form-control:focus {
+  border-color: var(--bs-success) !important;
+  box-shadow: 0 0 5px rgb(20, 233, 56) !important;
+}
